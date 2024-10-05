@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/img_1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.423"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG KÝ"
+            android:textColor="#73645D"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên đăng nhập"
+            android:textColor="#73645D"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu"
+            android:textColor="#73645D"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <EditText
+            android:id="@+id/edtPass"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhập lại mật khẩu"
+            android:textColor="#73645D"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <EditText
+            android:id="@+id/edtReturnPass"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhập tên"
+            android:textColor="#73645D"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <EditText
+            android:id="@+id/edtHoTenName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhập số điện thoại"
+            android:textColor="#73645D"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập địa chỉ"
+        android:textColor="#73645D"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+
+        />
+        <EditText
+            android:id="@+id/edtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/custom_edittext"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_button"
+            android:text="Đăng ký"
+            android:textColor="#73645D"
+            android:textSize="16sp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="@color/black"
+            android:text="Trở về"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
